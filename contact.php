@@ -39,12 +39,16 @@ require_once __DIR__ . '/includes/header.php';
         <h3 class="mb-4" style="font-size:1.2rem;font-weight:700">Get in Touch</h3>
 
         <div class="contact-info-item">
-          <div class="contact-info-icon"><i class="bi bi-geo-alt"></i></div>
-          <div>
-            <h5>Location</h5>
-            <p>Germany (Remote-friendly across Europe)</p>
-          </div>
-        </div>
+  <div class="contact-info-icon"><i class="bi bi-geo-alt"></i></div>
+  <div>
+    <h5><?= t('Location') ?></h5>
+    <p>
+      In den Mühläckern 35<br>
+      74196 Neuenstadt am Kocher<br>
+      <?= t('Germany (Remote-friendly across Europe)') ?>
+    </p>
+  </div>
+</div>
 
         <div class="contact-info-item">
           <div class="contact-info-icon"><i class="bi bi-envelope"></i></div>

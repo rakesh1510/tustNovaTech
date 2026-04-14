@@ -10,17 +10,20 @@
       </button>
       <div class="collapse navbar-collapse" id="navMenu">
         <ul class="navbar-nav mx-auto gap-1">
-          <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="technologies.php">Technologies</a></li>
-          <li class="nav-item"><a class="nav-link" href="products.php">Products</a></li>
-          <li class="nav-item"><a class="nav-link" href="expertise.php">Experience</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.php"><?= t('Home') ?></a></li>
+          <li class="nav-item"><a class="nav-link" href="about.php"><?= t('About Us') ?></a></li>
+          <li class="nav-item"><a class="nav-link" href="services.php"><?= t('Services') ?></a></li>
+          <li class="nav-item"><a class="nav-link" href="technologies.php"><?= t('Technologies') ?></a></li>
+          <li class="nav-item"><a class="nav-link" href="products.php"><?= t('Products') ?></a></li>
+          <li class="nav-item"><a class="nav-link" href="expertise.php"><?= t('Experience') ?></a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.php"><?= t('Contact') ?></a></li>
         </ul>
         <div class="d-flex align-items-center gap-3 mt-3 mt-lg-0">
+          <a href="<?= h(current_url_with_lang('en')) ?>" class="nav-link" style="padding:0">EN</a>
+          <span style="color:var(--text-muted)">/</span>
+          <a href="<?= h(current_url_with_lang('de')) ?>" class="nav-link" style="padding:0">DE</a>
           <a href="https://linkedin.com" target="_blank" rel="noopener" style="color:var(--text-muted);font-size:1.1rem"><i class="bi bi-linkedin"></i></a>
-          <a href="contact.php" class="btn-nav-cta nav-link">Get in Touch</a>
+          <a href="contact.php" class="btn-nav-cta nav-link"><?= t('Get in Touch') ?></a>
         </div>
       </div>
     </nav>

@@ -6,7 +6,7 @@ require_once __DIR__ . '/includes/header.php';
 
 <section class="page-hero">
   <div class="container position-relative" style="z-index:2">
-    <div class="breadcrumb-custom"><a href="index.php">Home</a><span class="sep">/</span> Experience</div>
+    <div class="breadcrumb-custom"><a href="/">Home</a><span class="sep">/</span> Experience</div>
     <span class="section-label">12+ Years of Experience</span>
     <h1>Practical Expertise Across the Full Software Lifecycle</h1>
     <p>Hands-on engineering experience combined with project leadership, structured delivery, and clear client communication.</p>
@@ -167,7 +167,7 @@ require_once __DIR__ . '/includes/header.php';
     <p class="section-subtitle mx-auto mb-5">
       12+ years of experience helps reduce risk, improve decision-making, and support more reliable software delivery. Let’s discuss your project.
     </p>
-    <a href="contact.php" class="btn-primary-custom"><i class="bi bi-envelope"></i> Contact TrustNova Tech</a>
+    <a href="/contact" class="btn-primary-custom"><i class="bi bi-envelope"></i> Contact TrustNova Tech</a>
   </div>
 </section>
 

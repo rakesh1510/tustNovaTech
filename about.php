@@ -1,15 +1,17 @@
 <?php
-$pageTitle       = 'About – TrustNova Tech | Germany-Based Freelance Software Consultant';
-$pageDescription = 'TrustNova Tech is a Germany-based freelance software consultancy led by an experienced developer and IT project manager with 12+ years of experience in custom software, SaaS, web applications, and scalable architecture.';
+$pageTitle = 'About TrustNova Tech | Software Development Company in Germany';
+
+$pageDescription = 'TrustNova Tech is a Germany-based software development brand founded and led by Rakesh Prajapati, an experienced software engineer and IT project manager with 12+ years of experience in custom software, SaaS, web applications, and scalable architecture.';
+
 require_once __DIR__ . '/includes/header.php';
 ?>
 
 <section class="page-hero">
   <div class="container position-relative" style="z-index:2">
-    <div class="breadcrumb-custom"><a href="index.php">Home</a><span class="sep">/</span> About</div>
+    <div class="breadcrumb-custom"><a href="/">Home</a><span class="sep">/</span> About</div>
     <span class="section-label">About TrustNova Tech</span>
-    <h1>Germany-Based Software Expertise <br>Built Over 12+ Years</h1>
-    <p>Independent freelance software consulting focused on practical, secure, and scalable digital solutions.</p>
+    <h1>Founder-Led Software Development <br>Built on 12+ Years of Experience</h1>
+    <p>A Germany-based software development brand founded and led by an experienced software engineer.</p>
   </div>
 </section>
 
@@ -17,11 +19,11 @@ require_once __DIR__ . '/includes/header.php';
   <div class="container">
     <div class="row g-5 align-items-center">
       <div class="col-lg-6">
-        <span class="section-label">Who I Am</span>
+        <span class="section-label">Founder-Led Software Development</span>
         <h2 class="section-title">Technology with Purpose, <span class="text-blue">Delivered with Trust</span></h2>
 
         <p class="mb-4">
-          TrustNova Tech is a Germany-based freelance software consultancy led by an experienced developer and IT project manager. It was built on a simple principle: good software depends on trust — trust in technical decisions, trust in delivery, and trust in clear communication.
+          TrustNova Tech is a Germany-based software development brand founded and led by Rakesh Prajapati, an experienced software engineer and IT project manager. It was built on a simple principle: good software depends on trust — trust in technical decisions, trust in delivery, and trust in clear communication.
         </p>
 
         <p class="mb-4">
@@ -29,7 +31,7 @@ require_once __DIR__ . '/includes/header.php';
         </p>
 
         <p>
-          TrustNova Tech allows me to offer that experience through an independent professional brand — helping businesses turn ideas, requirements, and complex workflows into software that is maintainable, secure, and aligned with real business goals.
+          TrustNova Tech allows me to offer that experience through a professional technology brand — helping businesses turn ideas, requirements, and complex workflows into software that is maintainable, secure, scalable, and aligned with real business goals.
         </p>
       </div>
 
@@ -40,8 +42,9 @@ require_once __DIR__ . '/includes/header.php';
             ['🏗','Software Architecture','Designing reliable systems that can grow with business needs, from custom applications to larger platform-based solutions.'],
             ['📋','Project Leadership','Supporting structured delivery with clear milestones, practical planning, and strong stakeholder communication.'],
             ['🔒','Security Focus','Applying secure development practices including input validation, safe data handling, and security-aware architecture.'],
-            ['🌍','International Experience','Based in Germany with experience working across multicultural teams, international clients, and diverse business environments.'],
+            ['🌍','Germany-Based Expertise','Based in Germany with experience working across multicultural teams, international clients, and diverse business environments.'],
           ];
+
           foreach ($highlights as [$icon, $title, $desc]): ?>
           <div class="col-6 reveal">
             <div class="card-custom text-center">
@@ -75,6 +78,7 @@ require_once __DIR__ . '/includes/header.php';
         ['2018–2021','Architecture & Leadership','Took on larger responsibilities in software architecture, sprint planning, stakeholder communication, and coordination of development teams on enterprise-oriented projects.'],
         ['2021–Present','Cloud, Scale & AI','Focused on scalable platforms, cloud infrastructure, Docker-based workflows, messaging systems, and AI-related product ideas and integrations under the TrustNova Tech brand.'],
       ];
+
       foreach ($journey as [$period, $title, $desc]): ?>
       <div class="col-md-6 col-lg-3 reveal">
         <div class="card-custom">
@@ -102,6 +106,7 @@ require_once __DIR__ . '/includes/header.php';
           ['📐','Clean, Maintainable Code','The goal is always to build software that is understandable, extensible, and practical to maintain over time.'],
           ['📊','Quality Through Structure','Thoughtful planning, testing, review, and careful execution help create stable and dependable outcomes.'],
         ];
+
         foreach ($values as [$icon, $title, $desc]): ?>
         <div class="why-item mb-4 reveal">
           <div class="why-icon" style="font-size:1.3rem"><?= $icon ?></div>
@@ -116,6 +121,7 @@ require_once __DIR__ . '/includes/header.php';
       <div class="col-lg-6">
         <span class="section-label">By the Numbers</span>
         <h2 class="section-title">Professional Snapshot</h2>
+
         <div class="row g-4">
           <?php
           $numbers = [
@@ -124,6 +130,7 @@ require_once __DIR__ . '/includes/header.php';
             ['18','Largest Team Led'],
             ['7','Technology Areas'],
           ];
+
           foreach ($numbers as [$num, $label]): ?>
           <div class="col-6 reveal">
             <div class="card-custom text-center">
@@ -144,7 +151,7 @@ require_once __DIR__ . '/includes/header.php';
     <p class="section-subtitle mx-auto mb-5">
       Tell me about your project and let’s explore how TrustNova Tech can help you build it in a secure, scalable, and practical way.
     </p>
-    <a href="contact.php" class="btn-primary-custom"><i class="bi bi-envelope"></i> Start the Conversation</a>
+    <a href="/contact" class="btn-primary-custom"><i class="bi bi-envelope"></i> Start the Conversation</a>
   </div>
 </section>
 

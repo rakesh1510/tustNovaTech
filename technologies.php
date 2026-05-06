@@ -125,7 +125,7 @@ $techIcons = [
 
 <section class="page-hero">
   <div class="container position-relative" style="z-index:2">
-    <div class="breadcrumb-custom"><a href="index.php">Home</a><span class="sep">/</span> Technologies</div>
+    <div class="breadcrumb-custom"><a href="/">Home</a><span class="sep">/</span> Technologies</div>
     <span class="section-label">Tech Stack</span>
     <h1>Technologies Built on Real Project Experience</h1>
     <p>TrustNova Tech works with practical, proven technologies across backend, frontend, databases, cloud, DevOps, and enterprise integration.</p>
@@ -200,7 +200,7 @@ $techIcons = [
     <p class="section-subtitle mx-auto mb-5">
       Whether you want to work with your current stack or need help choosing the right technologies for a new project, let’s discuss it.
     </p>
-    <a href="contact.php" class="btn-primary-custom"><i class="bi bi-chat-dots"></i> Get in Touch</a>
+    <a href="/contact" class="btn-primary-custom"><i class="bi bi-chat-dots"></i> Get in Touch</a>
   </div>
 </section>
 

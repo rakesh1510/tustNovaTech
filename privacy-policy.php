@@ -6,7 +6,7 @@ require_once __DIR__ . '/includes/header.php';
 
 <section class="page-hero">
   <div class="container position-relative" style="z-index:2">
-    <div class="breadcrumb-custom"><a href="index.php">Home</a><span class="sep">/</span> Privacy Policy</div>
+    <div class="breadcrumb-custom"><a href="/">Home</a><span class="sep">/</span> Privacy Policy</div>
     <span class="section-label">Legal</span>
     <h1>Privacy Policy</h1>
     <p>How personal data is collected, used, and protected. Last updated: <?= date('F Y') ?>.</p>

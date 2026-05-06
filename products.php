@@ -6,7 +6,7 @@ require_once __DIR__ . '/includes/header.php';
 
 <section class="page-hero">
   <div class="container position-relative" style="z-index:2">
-    <div class="breadcrumb-custom"><a href="index.php">Home</a><span class="sep">/</span> Products</div>
+    <div class="breadcrumb-custom"><a href="/">Home</a><span class="sep">/</span> Products</div>
     <span class="section-label">Products & Ideas</span>
     <h1>Software Built Around Real Problems</h1>
     <p>Alongside freelance client work, TrustNova Tech also explores product ideas, platforms, and custom solution directions based on real business needs.</p>
@@ -138,7 +138,7 @@ require_once __DIR__ . '/includes/header.php';
         <p style="color:var(--text-muted);margin-bottom:28px">
           This section represents the type of custom solution direction offered through freelance consulting work — from internal tools and process automation to operational dashboards and business-specific applications.
         </p>
-        <a href="contact.php" class="btn-primary-custom"><i class="bi bi-chat-dots"></i> Discuss Your Requirements</a>
+        <a href="/contact" class="btn-primary-custom"><i class="bi bi-chat-dots"></i> Discuss Your Requirements</a>
       </div>
     </div>
 
@@ -149,7 +149,7 @@ require_once __DIR__ . '/includes/header.php';
   <div class="container text-center">
     <h2 class="section-title">Interested in a Product or Custom Solution?</h2>
     <p class="section-subtitle mx-auto mb-5">If you want to discuss a platform idea, a product concept, or a custom software direction for your business, let’s talk.</p>
-    <a href="contact.php" class="btn-primary-custom"><i class="bi bi-envelope"></i> Let's Talk</a>
+    <a href="/contact" class="btn-primary-custom"><i class="bi bi-envelope"></i> Let's Talk</a>
   </div>
 </section>
 

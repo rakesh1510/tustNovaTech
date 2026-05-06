@@ -8,7 +8,7 @@ require_once __DIR__ . '/includes/header.php';
 
 <section class="page-hero">
   <div class="container position-relative" style="z-index:2">
-    <div class="breadcrumb-custom"><a href="index.php"><?= t('Home') ?></a><span class="sep">/</span> <?= t('Impressum') ?></div>
+    <div class="breadcrumb-custom"><a href="/"><?= t('Home') ?></a><span class="sep">/</span> <?= t('Impressum') ?></div>
     <span class="section-label"><?= t('Legal Notice') ?></span>
     <h1><?= t('Impressum') ?></h1>
     <p><?= t('Legal information in accordance with German legal requirements.') ?></p>
@@ -118,7 +118,7 @@ require_once __DIR__ . '/includes/header.php';
 
           <p style="font-size:.82rem;color:var(--text-muted)">
             <?= t('Last updated:') ?> <?= date('F Y') ?>.
-            <?= t('For information on the processing of personal data, please see the <a href="privacy-policy.php">Privacy Policy</a>.') ?>
+            <?= t('For information on the processing of personal data, please see the <a href="/privacy-policy">Privacy Policy</a>.') ?>
           </p>
 
         </div>

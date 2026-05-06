@@ -228,7 +228,8 @@ p { color: var(--text-muted); }
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: transparent;
+  /*background: transparent;*/
+  background: white;
   color: var(--text-dark);
   padding: 12px 26px;
   border-radius: var(--radius-sm);

@@ -368,7 +368,7 @@ function tn_translation_map_de(): array {
         'New software development project' => 'Neues Softwareentwicklungsprojekt',
         'Describe your project, goals, timeline, or any questions you have...' => 'Beschreiben Sie Ihr Projekt, Ihre Ziele, den Zeitplan oder Ihre Fragen...',
         'Send Message' => 'Nachricht senden',
-        'Your data is handled in accordance with the <a href="privacy-policy.php">Privacy Policy</a>.' => 'Ihre Daten werden gemäß der <a href="privacy-policy.php">Datenschutzerklärung</a> verarbeitet.',
+        'Your data is handled in accordance with the <a href="/privacy-policy">Privacy Policy</a>.' => 'Ihre Daten werden gemäß der <a href="/privacy-policy">Datenschutzerklärung</a> verarbeitet.',
         'Security validation failed. Please try again.' => 'Sicherheitsprüfung fehlgeschlagen. Bitte versuchen Sie es erneut.',
         'Thank you for reaching out! We will be in touch shortly.' => 'Vielen Dank für Ihre Nachricht! Wir melden uns in Kürze bei Ihnen.',
         'Please enter your full name.' => 'Bitte geben Sie Ihren vollständigen Namen ein.',
@@ -426,7 +426,7 @@ function tn_translation_map_de(): array {
         'Online Dispute Resolution' => 'Online-Streitbeilegung',
         'Professional Information' => 'Berufliche Informationen',
         'Last updated:' => 'Zuletzt aktualisiert:',
-        'For information on the processing of personal data, please see the <a href="privacy-policy.php">Privacy Policy</a>.' => 'Informationen zur Verarbeitung personenbezogener Daten finden Sie in der <a href="privacy-policy.php">Datenschutzerklärung</a>.',
+        'For information on the processing of personal data, please see the <a href="/privacy-policy">Privacy Policy</a>.' => 'Informationen zur Verarbeitung personenbezogener Daten finden Sie in der <a href="/privacy-policy">Datenschutzerklärung</a>.',
     ];
 }
 

@@ -1,12 +1,12 @@
 <?php
-$pageTitle       = 'Services – Custom Software, SaaS, AI Solutions | TrustNova Tech';
-$pageDescription = 'TrustNova Tech offers freelance software development services including custom software, web development, SaaS platforms, AI solutions, API integration, cloud support, and maintenance.';
+$pageTitle       = 'Services – Custom Software, Web, E-Commerce, SaaS & AI Solutions | TrustNova Tech';
+$pageDescription = 'TrustNova Tech offers software development services including custom software, web development, e-commerce development, SaaS platforms, AI solutions, API integration, cloud support, DevOps, and maintenance.';
 require_once __DIR__ . '/includes/header.php';
 ?>
 
 <section class="page-hero">
   <div class="container position-relative" style="z-index:2">
-    <div class="breadcrumb-custom"><a href="index.php">Home</a><span class="sep">/</span> Services</div>
+    <div class="breadcrumb-custom"><a href="/">Home</a><span class="sep">/</span> Services</div>
     <span class="section-label">Services</span>
     <h1>End-to-End Software Development Services</h1>
     <p>From requirements and architecture to deployment and support, TrustNova Tech provides practical software services tailored to real business needs.</p>
@@ -27,6 +27,11 @@ require_once __DIR__ . '/includes/header.php';
           'bi-window', 'Web Development',
           'I build modern, fast, and responsive web applications that work well across devices and browsers. From business websites to custom platforms, every project is built with clean code and usability in mind.',
           ['Full-stack development with PHP, Python, and JavaScript','Responsive design using HTML5, CSS3, and Bootstrap','Frontend applications with React and similar frameworks','WordPress and CMS-based implementations where appropriate','Performance, SEO, and accessibility best practices']
+        ],
+        [
+          'bi-cart-check', 'E-Commerce & Online Shop Development',
+          'I design and develop secure, scalable, and user-friendly e-commerce solutions that help businesses sell products and services online. From custom online shops to payment and logistics integrations, the focus is on conversion, performance, and reliable order processing.',
+          ['Custom e-commerce platforms and online shop development','Shopping cart, checkout, and order management workflows','Payment gateway integration such as Stripe, PayPal, Klarna, or similar providers','Product catalogue, pricing, inventory, and customer management','SEO-friendly product pages and performance optimisation','Multi-language and multi-currency support where required','Integration with ERP, CRM, logistics, and third-party systems']
         ],
         [
           'bi-cloud-arrow-up', 'SaaS Development',
@@ -112,7 +117,7 @@ require_once __DIR__ . '/includes/header.php';
   <div class="container text-center">
     <h2 class="section-title">Ready to Discuss Your Project?</h2>
     <p class="section-subtitle mx-auto mb-5">Tell me what you want to build, and I will get back to you with a practical next-step assessment.</p>
-    <a href="contact.php" class="btn-primary-custom"><i class="bi bi-chat-dots"></i> Request a Consultation</a>
+    <a href="/contact" class="btn-primary-custom"><i class="bi bi-chat-dots"></i> Request a Consultation</a>
   </div>
 </section>
 

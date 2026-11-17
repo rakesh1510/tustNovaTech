@@ -6,7 +6,7 @@ require_once __DIR__ . '/includes/header.php';
 
 <section class="page-hero">
   <div class="container position-relative" style="z-index:2">
-    <div class="breadcrumb-custom"><a href="index.php">Home</a><span class="sep">/</span> Privacy Policy</div>
+    <div class="breadcrumb-custom"><a href="/">Home</a><span class="sep">/</span> Privacy Policy</div>
     <span class="section-label">Legal</span>
     <h1>Privacy Policy</h1>
     <p>How personal data is collected, used, and protected. Last updated: <?= date('F Y') ?>.</p>
@@ -32,13 +32,17 @@ require_once __DIR__ . '/includes/header.php';
           <h2 class="mb-3" style="font-size:1.3rem">2. Controller</h2>
           <p>The controller responsible for data processing on this website is:</p>
 
-          <div style="background:rgba(255,255,255,.04);border:1px solid var(--border-light);border-radius:8px;padding:20px;margin-top:12px">
-            <strong>TrustNova Tech</strong><br>
-            <span style="color:var(--text-muted)">
-              Germany<br>
-              Email: info@trustnovatech.de
-            </span>
-          </div>
+         <div style="background:rgba(255,255,255,.04);border:1px solid var(--border-light);border-radius:8px;padding:20px;margin-top:12px">
+  <strong>TrustNova Tech</strong><br>
+  <span style="color:var(--text-muted)">
+    Rakesh Prajapati<br>
+    In den Mühläckern 35<br>
+    74196 Neuenstadt<br>
+    Germany<br><br>
+    Email: info@trustnovatech.de<br>
+    Phone: +49 176 66145047
+  </span>
+</div>
 
           <hr class="divider my-4">
 

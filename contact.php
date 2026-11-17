@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 $pageTitle       = 'Contact – TrustNova Tech | Start Your Software Project';
 $pageDescription = 'Contact TrustNova Tech to discuss your software project, request a consultation, or send a message. Germany-based freelance software consultancy.';
 
@@ -23,7 +25,7 @@ require_once __DIR__ . '/includes/header.php';
 
 <section class="page-hero">
   <div class="container position-relative" style="z-index:2">
-    <div class="breadcrumb-custom"><a href="index.php">Home</a><span class="sep">/</span> Contact</div>
+    <div class="breadcrumb-custom"><a href="/">Home</a><span class="sep">/</span> Contact</div>
     <span class="section-label">Let's Talk</span>
     <h1>Start a Conversation with TrustNova Tech</h1>
     <p>Tell me about your project, idea, or technical challenge, and I will get back to you as soon as possible.</p>
@@ -39,12 +41,16 @@ require_once __DIR__ . '/includes/header.php';
         <h3 class="mb-4" style="font-size:1.2rem;font-weight:700">Get in Touch</h3>
 
         <div class="contact-info-item">
-          <div class="contact-info-icon"><i class="bi bi-geo-alt"></i></div>
-          <div>
-            <h5>Location</h5>
-            <p>Germany (Remote-friendly across Europe)</p>
-          </div>
-        </div>
+  <div class="contact-info-icon"><i class="bi bi-geo-alt"></i></div>
+  <div>
+    <h5><?= t('Location') ?></h5>
+    <p>
+      In den Mühläckern 35<br>
+      74196 Neuenstadt am Kocher<br>
+      <?= t('Germany (Remote-friendly across Europe)') ?>
+    </p>
+  </div>
+</div>
 
         <div class="contact-info-item">
           <div class="contact-info-icon"><i class="bi bi-envelope"></i></div>
@@ -101,7 +107,7 @@ require_once __DIR__ . '/includes/header.php';
           <?php endif; ?>
 
           <?php if (!$result || !$result['success']): ?>
-          <form method="POST" action="contact.php" id="contactForm" novalidate>
+          <form method="POST" action="/contact" id="contactForm" novalidate>
             <input type="hidden" name="csrf_token" value="<?= htmlspecialchars($_SESSION['csrf_token'], ENT_QUOTES, 'UTF-8') ?>">
 
             <!-- Honeypot -->
@@ -176,7 +182,7 @@ require_once __DIR__ . '/includes/header.php';
                 </button>
 
                 <p style="font-size:.75rem;color:var(--text-muted);margin-top:12px;text-align:center">
-                  Your data is handled in accordance with the <a href="privacy-policy.php">Privacy Policy</a>.
+                  Your data is handled in accordance with the <a href="/privacy-policy">Privacy Policy</a>.
                 </p>
               </div>
             </div>

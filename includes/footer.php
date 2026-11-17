@@ -16,53 +16,54 @@
       <div class="col-6 col-lg-2">
         <p class="footer-heading">Company</p>
         <ul class="footer-links">
-          <li><a href="index.php">Home</a></li>
-          <li><a href="about.php">About Us</a></li>
-          <li><a href="expertise.php">Experience</a></li>
-          <li><a href="contact.php">Contact</a></li>
-          <li><a href="privacy-policy.php">Privacy Policy</a></li>
-          <li><a href="impressum.php">Impressum</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/expertise">Experience</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/privacy-policy">Privacy Policy</a></li>
+          <li><a href="/impressum">Impressum</a></li>
         </ul>
       </div>
       <!-- Services -->
       <div class="col-6 col-lg-3">
         <p class="footer-heading">Services</p>
         <ul class="footer-links">
-          <li><a href="services.php">Custom Software Development</a></li>
-          <li><a href="services.php">Web Development</a></li>
-          <li><a href="services.php">SaaS Development</a></li>
-          <li><a href="services.php">AI Solutions</a></li>
-          <li><a href="services.php">API Integration</a></li>
-          <li><a href="services.php">Cloud & DevOps</a></li>
+          <li><a href="/services">Custom Software Development</a></li>
+          <li><a href="/services">Web Development</a></li>
+          <li><a href="/services">SaaS Development</a></li>
+          <li><a href="/services">AI Solutions</a></li>
+          <li><a href="/services">API Integration</a></li>
+          <li><a href="/services">Cloud & DevOps</a></li>
         </ul>
       </div>
       <!-- Products & Contact -->
       <div class="col-lg-3">
         <p class="footer-heading">Products</p>
         <ul class="footer-links mb-4">
-          <li><a href="products.php">AIHubpedia</a></li>
-          <li><a href="products.php">FeedbackFlow</a></li>
-          <li><a href="products.php">Enterprise Solutions</a></li>
+          <li><a href="/products">AIHubpedia</a></li>
+          <li><a href="/products">FeedbackFlow</a></li>
+          <li><a href="/products">Enterprise Solutions</a></li>
         </ul>
         <p class="footer-heading">Get in Touch</p>
         <ul class="footer-links">
-          <li><a href="contact.php"><i class="bi bi-envelope me-1"></i>info@trustnovatech.de</a></li>
-          <li><a href="contact.php"><i class="bi bi-chat-dots me-1"></i>Start a Project</a></li>
+          <li><a href="/contact"><i class="bi bi-envelope me-1"></i>info@trustnovatech.de</a></li>
+          <li><a href="/contact"><i class="bi bi-chat-dots me-1"></i>Start a Project</a></li>
         </ul>
       </div>
     </div>
   </div>
   <div class="footer-bottom mt-5">
-    <div class="container">
-      <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
-        <p>&copy; <?= date('Y') ?> TrustNova Tech. All rights reserved.</p>
-        <div class="d-flex gap-3">
-          <a href="/privacy-policy.php" style="font-size:.8rem;color:rgba(255,255,255,.35)">Privacy Policy</a>
-          <a href="/impressum.php" style="font-size:.8rem;color:rgba(255,255,255,.35)">Impressum</a>
-        </div>
+  <div class="container">
+    <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+      <p>&copy; <?= date('Y') ?> TrustNova Tech. All rights reserved.</p>
+      <div class="d-flex gap-3">
+        <a href="/privacy-policy" style="font-size:.8rem;color:rgba(255,255,255,.35)">Privacy Policy</a>
+        <a href="/impressum" style="font-size:.8rem;color:rgba(255,255,255,.35)">Impressum</a>
+        <a href="/sitemap.xml" style="font-size:.8rem;color:rgba(255,255,255,.35)">Sitemap</a>
       </div>
     </div>
   </div>
+</div>
 </footer>
 <!-- Bootstrap 5 JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -71,3 +72,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+<?php
+if (ob_get_level() > 0) {
+    ob_end_flush();
+}
+?>

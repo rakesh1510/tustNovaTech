@@ -1,0 +1,10 @@
+
+/vendor/
+/includes/config_mail.php
+.env
+.env.*
+!.env.example
+*.log
+*.sql
+*.sql.gz
+*.bak

@@ -212,6 +212,85 @@ require_once __DIR__ . '/includes/header.php';
   </div>
 </section>
 
+
+<!-- ═══════════════════ FEATURED PROJECTS ═══════════════════ -->
+<section class="section-pad bg-navy-2">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-label"><?= t('Featured Projects') ?></span>
+      <h2 class="section-title"><?= t('Real Software Platforms Built by TrustNova Tech') ?></h2>
+      <p class="section-subtitle mx-auto">
+        <?= t('A selection of internal products, demo platforms, and digital solutions developed to showcase our expertise in SaaS, AI, eCommerce, restaurant systems, and modern web development.') ?>
+      </p>
+    </div>
+
+    <div class="row g-4">
+      <?php
+      $projects = [
+        [
+          'image' => '/assets/images/projects/pizza-heilbronn.jpg',
+          'tag' => t('Restaurant Ordering Platform'),
+          'title' => 'PizzaHeilbronn',
+          'desc' => t('A modern online pizza ordering platform with menu browsing, cart flow, responsive UI, offers, and restaurant-focused customer experience.'),
+          'tech' => ['PHP', 'MySQL', 'JavaScript', 'Responsive UI'],
+          'status' => t('Internal Demo Platform')
+        ],
+        [
+          'image' => '/assets/images/projects/threadhaus.jpg',
+          'tag' => t('Fashion eCommerce Store'),
+          'title' => 'ThreadHaus',
+          'desc' => t('A premium fashion eCommerce concept with product catalog, cart experience, promotional banner, and modern shopping interface.'),
+          'tech' => ['eCommerce', 'PHP', 'MySQL', 'Cart System'],
+          'status' => t('Internal Demo Platform')
+        ],
+        [
+          'image' => '/assets/images/projects/feedbackflow.jpg',
+          'tag' => t('Customer Feedback SaaS'),
+          'title' => 'FeedbackFlow',
+          'desc' => t('A SaaS platform concept for collecting, managing, and analysing customer feedback with business-focused workflows.'),
+          'tech' => ['SaaS', 'PHP', 'MySQL', 'Analytics'],
+          'status' => t('Product by TrustNova Tech')
+        ],
+        [
+          'image' => '/assets/images/projects/aihubpedia.jpg',
+          'tag' => t('AI Tools Directory'),
+          'title' => 'AIHubpedia',
+          'desc' => t('An AI tools discovery and comparison platform with categories, search, trending tools, and SEO-focused architecture.'),
+          'tech' => ['AI Platform', 'SEO', 'Search', 'Web App'],
+          'status' => t('Live Platform')
+        ],
+      ];
+
+      foreach ($projects as $project): ?>
+      <div class="col-md-6 col-lg-6 reveal">
+        <div class="project-showcase-card">
+          <div class="project-image-wrap">
+            <img src="<?= $project['image'] ?>" alt="<?= $project['title'] ?> project screenshot" class="project-image">
+            <div class="project-status"><?= $project['status'] ?></div>
+          </div>
+
+          <div class="project-content">
+            <span class="project-tag"><?= $project['tag'] ?></span>
+            <h3><?= $project['title'] ?></h3>
+            <p><?= $project['desc'] ?></p>
+
+            <div class="project-tech-list">
+              <?php foreach ($project['tech'] as $tech): ?>
+                <span><?= $tech ?></span>
+              <?php endforeach; ?>
+            </div>
+
+            <a href="/contact" class="btn-outline-custom mt-3" style="font-size:.85rem;padding:10px 20px">
+              <?= t('Request Similar Solution') ?> <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
 <!-- ═══════════════════ TECHNOLOGIES SNAPSHOT ═══════════════════ -->
 <section class="section-pad bg-navy-2">
   <div class="container">
@@ -220,7 +299,7 @@ require_once __DIR__ . '/includes/header.php';
         <span class="section-label">Technology Stack</span>
         <h2 class="section-title">Battle-Tested <span class="text-blue">Technologies</span></h2>
         <p class="section-subtitle mb-4">
-          The right tools are chosen for the right job — from PHP and Python backends to React frontends, cloud platforms, APIs, databases, and Docker-based deployments.
+          The right tools are chosen for the right job — with PHP, Python, Artificial Intelligence, and Machine Learning as key technical strengths, supported by modern frameworks, databases, frontend technologies, cloud platforms, APIs, DevOps, and enterprise tooling.
         </p>
         <a href="/technologies" class="btn-outline-custom">View Tech Stack <i class="bi bi-arrow-right"></i></a>
       </div>
@@ -229,10 +308,15 @@ require_once __DIR__ . '/includes/header.php';
         <div class="tech-badges-wrap">
           <?php
           $techs = [
-            'PHP','Laravel','Python','JavaScript','React.js','Node.js','MySQL','PostgreSQL',
-            'MongoDB','Redis','Docker','AWS','Azure','Linux','Git','REST API','RabbitMQ',
-            'Kubernetes','Terraform','Ansible','NGINX','Apache','Bootstrap','jQuery',
-            'WordPress','CI/CD'
+            'PHP','Laravel','Symfony','CodeIgniter','Joomla','WordPress','Composer',
+            'Python','FastAPI','SQLAlchemy','Alembic','NumPy','pandas',
+            'Artificial Intelligence','Machine Learning','Generative AI','RAG','LLMs',
+            'Embeddings','Semantic Search','scikit-learn','Random Forest','MFCC','FFT',
+            'Audio Signal Processing','JavaScript','React.js','Angular','Bootstrap','jQuery',
+            'MySQL','PostgreSQL','MariaDB','MongoDB','Redis','DynamoDB',
+            'REST API','SOAP','RabbitMQ','JWT',
+            'Docker','AWS','Azure','Kubernetes','Terraform','Ansible','Jenkins',
+            'Git','GitHub Actions','Linux','NGINX','Apache','Prometheus','Grafana','CI/CD'
           ];
 
           foreach ($techs as $t): ?>

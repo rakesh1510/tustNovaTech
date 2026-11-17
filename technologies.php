@@ -5,10 +5,40 @@ require_once __DIR__ . '/includes/header.php';
 
 $techGroups = [
   [
+    'label' => 'Primary Technology Stacks',
+    'icon'  => 'bi-stars',
+    'desc'  => 'Core technical strengths used across backend engineering, modern AI applications, Machine Learning solutions, SaaS products, APIs, and enterprise software.',
+    'items' => ['PHP','Python','Artificial Intelligence','Machine Learning'],
+  ],
+  [
     'label' => 'Backend & Languages',
     'icon'  => 'bi-server',
     'desc'  => 'Hands-on backend development across multiple languages and paradigms, from PHP and Python to Java, C, and shell scripting.',
     'items' => ['PHP','OOP','Python','Java','C','C++','Shell Scripting','JavaScript','JSON','XML'],
+  ],
+  [
+    'label' => 'PHP Ecosystem',
+    'icon'  => 'bi-filetype-php',
+    'desc'  => 'PHP technologies used for enterprise web applications, APIs, SaaS systems, CMS platforms, and maintainable backend development.',
+    'items' => ['PHP','Laravel','Symfony','CodeIgniter','Joomla','WordPress','Composer','PHPUnit','PSR-12'],
+  ],
+  [
+    'label' => 'Python Ecosystem',
+    'icon'  => 'bi-terminal',
+    'desc'  => 'Python technologies used for APIs, AI backends, data processing, automation, and Machine Learning applications.',
+    'items' => ['Python','FastAPI','SQLAlchemy','Alembic','NumPy','pandas','joblib','PySide6'],
+  ],
+  [
+    'label' => 'Artificial Intelligence & Generative AI',
+    'icon'  => 'bi-robot',
+    'desc'  => 'AI capabilities for enterprise knowledge systems, natural-language applications, semantic retrieval, and AI-enabled workflows.',
+    'items' => ['Artificial Intelligence','Generative AI','RAG','LLMs','Embeddings','Semantic Search','Vector Search','Retrieval Pipelines'],
+  ],
+  [
+    'label' => 'Machine Learning & Audio AI',
+    'icon'  => 'bi-cpu',
+    'desc'  => 'Machine Learning and audio-signal processing capabilities covering feature engineering, supervised classification, model training, and inference.',
+    'items' => ['Machine Learning','scikit-learn','Random Forest','Supervised Learning','Multiclass Classification','Feature Engineering','MFCC','FFT','Audio Signal Processing','librosa','NumPy','pandas','joblib'],
   ],
   [
     'label' => 'Frontend',
@@ -20,7 +50,7 @@ $techGroups = [
     'label' => 'Databases',
     'icon'  => 'bi-database',
     'desc'  => 'Relational, NoSQL, and in-memory storage solutions selected according to business logic, performance needs, and scale.',
-    'items' => ['MySQL','SQL','MongoDB','MariaDB','DynamoDB','Redis'],
+    'items' => ['MySQL','SQL','PostgreSQL','MongoDB','MariaDB','DynamoDB','Redis','Memcached'],
   ],
   [
     'label' => 'Servers / Platforms / OS',
@@ -32,13 +62,13 @@ $techGroups = [
     'label' => 'Frameworks & CMS',
     'icon'  => 'bi-layers',
     'desc'  => 'Production experience with frameworks and CMS platforms used for maintainable software delivery and fast implementation.',
-    'items' => ['Laravel','CodeIgniter','WordPress','Joomla'],
+    'items' => ['Laravel','Symfony','CodeIgniter','FastAPI','WordPress','Joomla'],
   ],
   [
     'label' => 'APIs & Messaging',
     'icon'  => 'bi-plug',
     'desc'  => 'Integration work across APIs, web services, and messaging systems for reliable communication between platforms and services.',
-    'items' => ['REST APIs','SOAP','Web Services','RabbitMQ'],
+    'items' => ['REST APIs','SOAP','Web Services','RabbitMQ','JWT'],
   ],
   [
     'label' => 'Cloud & DevOps & Tools',
@@ -46,10 +76,15 @@ $techGroups = [
     'desc'  => 'Cloud infrastructure, deployment tooling, container workflows, and delivery support for practical and stable software operations.',
     'items' => ['AWS','Azure','Docker','Jenkins','Terraform','Git','GitHub Actions','Ansible','Kubernetes','Composer','JIRA','Scrum','Kanban','ServiceNow','Memcached','Elastic Stack'],
   ],
+  [
+    'label' => 'Observability & Operations',
+    'icon'  => 'bi-graph-up',
+    'desc'  => 'Monitoring, logging, and operational tooling used to understand system health, application behaviour, and production performance.',
+    'items' => ['Prometheus','Grafana','CloudWatch','Elastic Stack','Linux'],
+  ],
 ];
 
 $techIcons = [
-  // Backend & Languages
   'PHP' => 'bi-filetype-php',
   'OOP' => 'bi-boxes',
   'Python' => 'bi-terminal',
@@ -60,8 +95,6 @@ $techIcons = [
   'JavaScript' => 'bi-filetype-js',
   'JSON' => 'bi-braces',
   'XML' => 'bi-code-slash',
-
-  // Frontend
   'HTML5' => 'bi-filetype-html',
   'CSS3' => 'bi-filetype-css',
   'AJAX' => 'bi-arrow-repeat',
@@ -69,16 +102,12 @@ $techIcons = [
   'Bootstrap' => 'bi-bootstrap',
   'Angular' => 'bi-triangle',
   'React.js' => 'bi-circle-square',
-
-  // Databases
   'MySQL' => 'bi-database',
   'SQL' => 'bi-database-fill',
   'MongoDB' => 'bi-database-gear',
   'MariaDB' => 'bi-database-check',
   'DynamoDB' => 'bi-lightning-charge',
   'Redis' => 'bi-memory',
-
-  // Servers / Platforms / OS
   'Apache' => 'bi-server',
   'Nginx' => 'bi-hdd-network',
   'Linux' => 'bi-terminal',
@@ -90,20 +119,14 @@ $techIcons = [
   'LAMP' => 'bi-stack',
   'WAMP' => 'bi-stack',
   'XAMPP' => 'bi-box',
-
-  // Frameworks & CMS
   'Laravel' => 'bi-layers',
   'CodeIgniter' => 'bi-lightning',
   'WordPress' => 'bi-wordpress',
   'Joomla' => 'bi-grid-3x3-gap',
-
-  // APIs & Messaging
   'REST APIs' => 'bi-plug',
   'SOAP' => 'bi-diagram-3',
   'Web Services' => 'bi-globe',
   'RabbitMQ' => 'bi-diagram-2',
-
-  // Cloud & DevOps & Tools
   'AWS' => 'bi-cloud',
   'Azure' => 'bi-cloud-fill',
   'Docker' => 'bi-box-seam',
@@ -120,6 +143,39 @@ $techIcons = [
   'ServiceNow' => 'bi-gear-wide-connected',
   'Memcached' => 'bi-lightning-fill',
   'Elastic Stack' => 'bi-bar-chart-line',
+  'Artificial Intelligence' => 'bi-robot',
+  'Machine Learning' => 'bi-cpu',
+  'Generative AI' => 'bi-stars',
+  'RAG' => 'bi-search',
+  'LLMs' => 'bi-chat-square-text',
+  'Embeddings' => 'bi-diagram-3-fill',
+  'Semantic Search' => 'bi-search',
+  'Vector Search' => 'bi-bullseye',
+  'Retrieval Pipelines' => 'bi-arrow-repeat',
+  'FastAPI' => 'bi-lightning-charge',
+  'SQLAlchemy' => 'bi-database-gear',
+  'Alembic' => 'bi-diagram-3',
+  'NumPy' => 'bi-grid-3x3-gap',
+  'pandas' => 'bi-table',
+  'joblib' => 'bi-box',
+  'PySide6' => 'bi-window',
+  'Symfony' => 'bi-boxes',
+  'PHPUnit' => 'bi-check2-square',
+  'PSR-12' => 'bi-braces',
+  'scikit-learn' => 'bi-cpu',
+  'Random Forest' => 'bi-tree',
+  'Supervised Learning' => 'bi-mortarboard',
+  'Multiclass Classification' => 'bi-diagram-2',
+  'Feature Engineering' => 'bi-sliders',
+  'MFCC' => 'bi-soundwave',
+  'FFT' => 'bi-activity',
+  'Audio Signal Processing' => 'bi-waveform',
+  'librosa' => 'bi-music-note-beamed',
+  'PostgreSQL' => 'bi-database',
+  'JWT' => 'bi-key',
+  'Prometheus' => 'bi-activity',
+  'Grafana' => 'bi-bar-chart-line',
+  'CloudWatch' => 'bi-eye',
 ];
 ?>
 
@@ -128,7 +184,7 @@ $techIcons = [
     <div class="breadcrumb-custom"><a href="/">Home</a><span class="sep">/</span> Technologies</div>
     <span class="section-label">Tech Stack</span>
     <h1>Technologies Built on Real Project Experience</h1>
-    <p>TrustNova Tech works with practical, proven technologies across backend, frontend, databases, cloud, DevOps, and enterprise integration.</p>
+    <p>TrustNova Tech works with practical, proven technologies across PHP, Python, Artificial Intelligence, Machine Learning, backend, frontend, databases, cloud, DevOps, and enterprise integration.</p>
   </div>
 </section>
 

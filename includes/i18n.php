@@ -1,4 +1,5 @@
 <?php
+
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
@@ -416,16 +417,134 @@ function tn_translation_map_de(): array {
         'Liability for Content' => 'Haftung für Inhalte',
         'Liability for Links' => 'Haftung für Links',
         'Copyright' => 'Urheberrecht',
-		'Germany' => 'Deutschland',
-'The contents of this website have been created with great care. However, no guarantee can be given for the accuracy, completeness, or currentness of the content.' => 'Die Inhalte dieser Website wurden mit großer Sorgfalt erstellt. Es kann jedoch keine Gewähr für die Richtigkeit, Vollständigkeit oder Aktualität der Inhalte übernommen werden.',
-'This website may contain links to external third-party websites. No influence is held over the content of those websites. Therefore, no liability can be accepted for such external content. The respective provider or operator of the linked pages is always responsible for their content.' => 'Diese Website kann Links zu externen Websites Dritter enthalten. Auf deren Inhalte besteht kein Einfluss. Daher kann für diese fremden Inhalte keine Haftung übernommen werden. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich.',
-'The content and works published on this website are subject to German copyright law. Any duplication, editing, distribution, or use beyond the limits of copyright law requires prior written consent, unless otherwise permitted by law.' => 'Die auf dieser Website veröffentlichten Inhalte und Werke unterliegen dem deutschen Urheberrecht. Jede Vervielfältigung, Bearbeitung, Verbreitung oder Verwertung außerhalb der Grenzen des Urheberrechts bedarf der vorherigen schriftlichen Zustimmung, soweit gesetzlich nichts anderes erlaubt ist.',
-'The European Commission provides a platform for online dispute resolution (ODR). It can be found at' => 'Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit. Diese finden Sie unter',
-'There is no obligation or willingness to participate in dispute resolution proceedings before a consumer arbitration board.' => 'Es besteht keine Verpflichtung und keine Bereitschaft, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.',
-'TrustNova Tech operates as an independent freelance software consultancy. No trade-specific supervisory authority applies in the context of general software consulting and development services, unless otherwise required by applicable law.' => 'TrustNova Tech arbeitet als unabhängige freiberufliche Softwareberatung. Im Rahmen allgemeiner Softwareberatungs- und Entwicklungsleistungen besteht keine branchenspezifische Aufsichtsbehörde, soweit gesetzlich nichts anderes vorgeschrieben ist.',
+        'Germany' => 'Deutschland',
+        'The contents of this website have been created with great care. However, no guarantee can be given for the accuracy, completeness, or currentness of the content.' => 'Die Inhalte dieser Website wurden mit großer Sorgfalt erstellt. Es kann jedoch keine Gewähr für die Richtigkeit, Vollständigkeit oder Aktualität der Inhalte übernommen werden.',
+        'This website may contain links to external third-party websites. No influence is held over the content of those websites. Therefore, no liability can be accepted for such external content. The respective provider or operator of the linked pages is always responsible for their content.' => 'Diese Website kann Links zu externen Websites Dritter enthalten. Auf deren Inhalte besteht kein Einfluss. Daher kann für diese fremden Inhalte keine Haftung übernommen werden. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich.',
+        'The content and works published on this website are subject to German copyright law. Any duplication, editing, distribution, or use beyond the limits of copyright law requires prior written consent, unless otherwise permitted by law.' => 'Die auf dieser Website veröffentlichten Inhalte und Werke unterliegen dem deutschen Urheberrecht. Jede Vervielfältigung, Bearbeitung, Verbreitung oder Verwertung außerhalb der Grenzen des Urheberrechts bedarf der vorherigen schriftlichen Zustimmung, soweit gesetzlich nichts anderes erlaubt ist.',
+        'The European Commission provides a platform for online dispute resolution (ODR). It can be found at' => 'Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit. Diese finden Sie unter',
+        'There is no obligation or willingness to participate in dispute resolution proceedings before a consumer arbitration board.' => 'Es besteht keine Verpflichtung und keine Bereitschaft, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.',
+        'TrustNova Tech operates as an independent freelance software consultancy. No trade-specific supervisory authority applies in the context of general software consulting and development services, unless otherwise required by applicable law.' => 'TrustNova Tech arbeitet als unabhängige freiberufliche Softwareberatung. Im Rahmen allgemeiner Softwareberatungs- und Entwicklungsleistungen besteht keine branchenspezifische Aufsichtsbehörde, soweit gesetzlich nichts anderes vorgeschrieben ist.',
         'Online Dispute Resolution' => 'Online-Streitbeilegung',
         'Professional Information' => 'Berufliche Informationen',
         'Last updated:' => 'Zuletzt aktualisiert:',
+        'Production Ready' => 'Produktionsbereit',
+        'Software Development Services' => 'Softwareentwicklungsleistungen',
+        'Custom Software, SaaS, AI & Web Development' => 'Individuelle Software-, SaaS-, KI- & Webentwicklung',
+        'Technology Stack' => 'Technologie-Stack',
+        'Products & Platforms' => 'Produkte & Plattformen',
+        'How We Work' => 'Wie wir arbeiten',
+        'A Process Built for <span class="text-blue">Results</span>' => 'Ein Prozess für <span class="text-blue">Ergebnisse</span>',
+        'Work Style' => 'Arbeitsweise',
+        'What Clients Value' => 'Was Kunden schätzen',
+        'Ready to Start?' => 'Bereit zu starten?',
+        'Let’s Build Something Great Together' => 'Lassen Sie uns gemeinsam etwas Großartiges entwickeln',
+        'Contact Us' => 'Kontaktieren Sie uns',
+        'Discovery' => 'Analyse',
+        'Planning' => 'Planung',
+        'Design & Development' => 'Design & Entwicklung',
+        'Testing & Security Review' => 'Tests & Sicherheitsprüfung',
+        'Deployment & Support' => 'Deployment & Support',
+        'Quality Focus' => 'Qualitätsfokus',
+        'Clear Communication' => 'Klare Kommunikation',
+        'Reliable Delivery' => 'Zuverlässige Umsetzung',
+        'Projects' => 'Projekte',
+        'Largest Team Led' => 'Größtes geleitetes Team',
+        'Years' => 'Jahre',
+        'Production Ready' => 'Produktionsbereit',
+        'TrustNova :: Secure Architecture' => 'TrustNova :: Sichere Architektur',
+        'Services' => 'Leistungen',
+        'Founder-Led Software Development'
+        => 'Gründergeführte Softwareentwicklung',
+        'Technology with Purpose, <span class="text-blue">Delivered with Trust</span>'
+        => 'Technologie mit Sinn, <span class="text-blue">geliefert mit Vertrauen</span>',
+        'TrustNova Tech is a Germany-based software development brand founded and led by Rakesh Prajapati, an experienced software engineer and IT project manager. It was built on a simple principle: good software depends on trust — trust in technical decisions, trust in delivery, and trust in clear communication.'
+        => 'TrustNova Tech ist eine in Deutschland ansässige Softwareentwicklungsmarke, gegründet und geleitet von Rakesh Prajapati, einem erfahrenen Software Engineer und IT-Projektmanager. Sie basiert auf einem einfachen Prinzip: Gute Software beruht auf Vertrauen — Vertrauen in technische Entscheidungen, in die Umsetzung und in klare Kommunikation.',
+        'With over 12 years of progressive experience, I have worked across custom software development, full-stack web applications, SaaS platforms, enterprise systems, API integrations, and cloud-based solutions. My background combines hands-on engineering with project leadership and structured delivery.'
+        => 'Mit über 12 Jahren Erfahrung habe ich in den Bereichen individuelle Softwareentwicklung, Full-Stack-Webanwendungen, SaaS-Plattformen, Enterprise-Systeme, API-Integrationen und Cloud-Lösungen gearbeitet. Mein Hintergrund verbindet praktische Entwicklung mit Projektführung und strukturierter Umsetzung.',
+        'TrustNova Tech allows me to offer that experience through a professional technology brand — helping businesses turn ideas, requirements, and complex workflows into software that is maintainable, secure, scalable, and aligned with real business goals.'
+        => 'TrustNova Tech ermöglicht es mir, diese Erfahrung über eine professionelle Technologiemarke anzubieten — und Unternehmen dabei zu helfen, Ideen, Anforderungen und komplexe Workflows in wartbare, sichere, skalierbare und auf echte Geschäftsziele ausgerichtete Software umzusetzen.',
+        'Contact' => 'Kontakt',
+        'Products' => 'Produkte',
+        'Featured Projects' => 'Ausgewählte Projekte',
+        'Real Software Platforms Built by TrustNova Tech' => 'Reale Softwareplattformen entwickelt von TrustNova Tech',
+        'A selection of internal products, demo platforms, and digital solutions developed to showcase our expertise in SaaS, AI, eCommerce, restaurant systems, and modern web development.'
+        => 'Eine Auswahl interner Produkte, Demo-Plattformen und digitaler Lösungen, entwickelt zur Präsentation unserer Expertise in SaaS, KI, E-Commerce, Restaurantsystemen und moderner Webentwicklung.',
+        'Restaurant Ordering Platform' => 'Restaurant-Bestellplattform',
+        'Fashion eCommerce Store' => 'Mode-E-Commerce-Shop',
+        'Customer Feedback SaaS' => 'Kundenfeedback-SaaS',
+        'AI Tools Directory' => 'KI-Tools-Verzeichnis',
+        'A modern online pizza ordering platform with menu browsing, cart flow, responsive UI, offers, and restaurant-focused customer experience.'
+        => 'Eine moderne Online-Pizza-Bestellplattform mit Menüanzeige, Warenkorb, responsivem UI, Angeboten und kundenorientiertem Restauranterlebnis.',
+        'A premium fashion eCommerce concept with product catalog, cart experience, promotional banner, and modern shopping interface.'
+        => 'Ein Premium-Mode-E-Commerce-Konzept mit Produktkatalog, Warenkorb-Erlebnis, Werbebannern und moderner Shopping-Oberfläche.',
+        'A SaaS platform concept for collecting, managing, and analysing customer feedback with business-focused workflows.'
+        => 'Ein SaaS-Plattformkonzept zur Erfassung, Verwaltung und Analyse von Kundenfeedback mit geschäftsorientierten Workflows.',
+        'An AI tools discovery and comparison platform with categories, search, trending tools, and SEO-focused architecture.'
+        => 'Eine Plattform zum Entdecken und Vergleichen von KI-Tools mit Kategorien, Suche, Trending-Tools und SEO-orientierter Architektur.',
+        'Internal Demo Platform' => 'Interne Demo-Plattform',
+        'Product by TrustNova Tech' => 'Produkt von TrustNova Tech',
+        'Live Platform' => 'Live-Plattform',
+        'Request Similar Solution' => 'Ähnliche Lösung anfragen',
+        'Secure Architecture' => 'Sichere Architektur',
+        'Germany-Based Software Development · SaaS · AI · Web Solutions'
+        => 'Softwareentwicklung aus Deutschland · SaaS · KI · Weblösungen',
+        'Custom Software Development Company in <span>Germany</span>'
+        => 'Softwarelösungen in <span>Deutschland</span>',
+        'TrustNova Tech helps businesses build secure, scalable, and high-performance software solutions — including custom software, SaaS platforms, AI-powered applications, modern websites, APIs, and business automation systems.'
+        => 'TrustNova Tech unterstützt Unternehmen bei der Entwicklung sicherer, skalierbarer und leistungsstarker Softwarelösungen — einschließlich individueller Software, SaaS-Plattformen, KI-gestützter Anwendungen, moderner Websites, APIs und Business-Automatisierungssysteme.',
+        'Software Company' => 'Softwareunternehmen',
+        'TrustNova Tech combines hands-on software engineering, project leadership, and clear communication to deliver solutions that are practical, secure, scalable, and built to last.'
+        => 'TrustNova Tech kombiniert praktische Softwareentwicklung, Projektleitung und klare Kommunikation, um praxisnahe, sichere, skalierbare und langfristige Lösungen zu liefern.',
+        '12+ Years of Experience'
+        => '12+ Jahre Erfahrung',
+        'Experience leading and coordinating development teams of up to 18 engineers across complex software projects and multiple stakeholders.'
+        => 'Erfahrung in der Führung und Koordination von Entwicklungsteams mit bis zu 18 Entwicklern über komplexe Softwareprojekte und mehrere Stakeholder hinweg.',
+        'Based in Germany with a strong focus on quality, reliability, security, and professional delivery standards.'
+        => 'Mit Sitz in Deutschland und starkem Fokus auf Qualität, Zuverlässigkeit, Sicherheit und professionelle Lieferstandards.',
+        'From backend systems to frontend interfaces, cloud infrastructure, APIs, databases, and integrations — projects are handled end-to-end.'
+        => 'Von Backend-Systemen über Frontend-Oberflächen bis hin zu Cloud-Infrastruktur, APIs, Datenbanken und Integrationen werden Projekte vollständig umgesetzt.',
+        'Ongoing support, maintenance, optimisation, and improvement help keep systems stable, secure, and ready to scale.'
+        => 'Laufender Support, Wartung, Optimierung und Weiterentwicklung helfen dabei, Systeme stabil, sicher und skalierbar zu halten.',
+        'From custom business software to AI-powered platforms, TrustNova Tech delivers secure and scalable solutions designed around real business needs.'
+        => 'Von individueller Business-Software bis hin zu KI-gestützten Plattformen liefert TrustNova Tech sichere und skalierbare Lösungen für reale Geschäftsanforderungen.',
+        'Custom Software Development'
+        => 'Individuelle Softwareentwicklung',
+        'Tailor-made software engineered around your requirements, workflows, business logic, and long-term growth.'
+        => 'Maßgeschneiderte Software, entwickelt rund um Ihre Anforderungen, Workflows, Geschäftslogik und langfristiges Wachstum.',
+        'Web Development'
+        => 'Webentwicklung',
+        'Modern, fast, responsive websites and web applications built with proven technologies and clean architecture.'
+        => 'Moderne, schnelle und responsive Websites und Webanwendungen auf Basis bewährter Technologien und sauberer Architektur.',
+        'SaaS Development'
+        => 'SaaS-Entwicklung',
+        'Cloud-ready SaaS products designed for performance, maintainability, subscription models, and long-term scalability.'
+        => 'Cloudfähige SaaS-Produkte für Performance, Wartbarkeit, Abo-Modelle und langfristige Skalierbarkeit.',
+        'AI-powered features, automation tools, intelligent workflows, and smart integrations for modern businesses.'
+        => 'KI-gestützte Funktionen, Automatisierungstools, intelligente Workflows und smarte Integrationen für moderne Unternehmen.',
+        'API Integration'
+        => 'API-Integration',
+        'Seamless integration of third-party services, REST APIs, SOAP interfaces, payment systems, and custom middleware.'
+        => 'Nahtlose Integration von Drittanbieter-Diensten, REST-APIs, SOAP-Schnittstellen, Zahlungssystemen und individueller Middleware.',
+        'Maintenance & Support'
+        => 'Wartung & Support',
+        'Ongoing technical support, optimisation, debugging, security updates, and improvement for live systems.'
+        => 'Laufender technischer Support, Optimierung, Debugging, Sicherheitsupdates und Weiterentwicklung für Live-Systeme.',
+        'The right tools are chosen for the right job — from PHP and Python backends to React frontends, cloud platforms, APIs, databases, and Docker-based deployments.'
+        => 'Für jede Aufgabe werden die passenden Technologien gewählt — von PHP- und Python-Backends über React-Frontends bis hin zu Cloud-Plattformen, APIs, Datenbanken und Docker-basierten Deployments.',
+        'Alongside client software development, TrustNova Tech also builds and explores selected digital products and platforms focused on real-world business value.'
+        => 'Neben der Softwareentwicklung für Kunden entwickelt und erforscht TrustNova Tech auch ausgewählte digitale Produkte und Plattformen mit echtem geschäftlichem Mehrwert.',
+        'Understanding your goals, requirements, technical constraints, workflows, and business context through focused consultation.'
+        => 'Verstehen Ihrer Ziele, Anforderungen, technischen Rahmenbedingungen, Workflows und geschäftlichen Hintergründe durch gezielte Beratung.',
+        'Defining architecture, technology stack, milestones, delivery priorities, risks, and project roadmap before development begins.'
+        => 'Definition von Architektur, Technologie-Stack, Meilensteinen, Lieferprioritäten, Risiken und Projekt-Roadmap vor Entwicklungsbeginn.',
+        'Building your solution iteratively with clean, modular, secure, and well-structured code.'
+        => 'Iterative Entwicklung Ihrer Lösung mit sauberem, modularen, sicheren und gut strukturierten Code.',
+        'Carrying out QA, validation, security checks, performance review, and bug fixing before release.'
+        => 'Durchführung von Qualitätssicherung, Validierung, Sicherheitsprüfungen, Performance-Analysen und Fehlerbehebungen vor dem Release.',
+        'Handling go-live, infrastructure setup, monitoring, maintenance, and ongoing improvement after launch.'
+        => 'Betreuung von Go-Live, Infrastruktur-Setup, Monitoring, Wartung und kontinuierlicher Verbesserung nach dem Launch.',
+        'Whether you already have a detailed specification or just an early idea, TrustNova Tech can help turn it into a secure, scalable, and practical software solution.'
+        => 'Ob Sie bereits eine detaillierte Spezifikation oder nur eine erste Idee haben — TrustNova Tech hilft Ihnen dabei, daraus eine sichere, skalierbare und praxisnahe Softwarelösung zu entwickeln.',
         'For information on the processing of personal data, please see the <a href="/privacy-policy">Privacy Policy</a>.' => 'Informationen zur Verarbeitung personenbezogener Daten finden Sie in der <a href="/privacy-policy">Datenschutzerklärung</a>.',
     ];
 }

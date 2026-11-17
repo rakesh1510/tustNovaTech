@@ -8,3 +8,5 @@
 *.sql
 *.sql.gz
 *.bak
+
+/nbproject/private/
